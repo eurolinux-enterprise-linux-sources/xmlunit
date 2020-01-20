@@ -30,7 +30,7 @@
 
 Name:           xmlunit
 Version:        1.4
-Release:        5%{?dist}
+Release:        6%{?dist}
 Epoch:          0
 Summary:        Provides classes to do asserts on xml
 License:        BSD
@@ -115,6 +115,9 @@ ant
 %doc %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.4-6
+- Mass rebuild 2013-12-27
+
 * Fri Sep 27 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.4-5
 - Enable test suite
 - Resolves: rhbz#987412
